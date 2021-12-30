@@ -8,8 +8,13 @@ export const Nav = styled.div`
   align-items: center;
   flex-wrap: wrap;
   //background-image: linear-gradient(to bottom, #feada6 50%, #f5efef 100%);
-  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
- background-blend-mode: multiply;
+  background: linear-gradient(to bottom, #323232 0%, #3f3f3f 40%, #1c1c1c 150%),
+    linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(0, 0, 0, 0.25) 200%
+    );
+  background-blend-mode: multiply;
   //background-color:#e5b8b7;
   border-radius: 0 0 3px 3px;
   height: 75px;
@@ -44,16 +49,20 @@ export const MenuLink = styled(Link)`
   color: white;
   transition: all 0.3s ease-in;
   font-size: 2rem;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   &:hover {
     color: darkred;
     font-weight: bold;
   }
   @media (max-width: 768px) {
-    background-color: #e1f1dd;
-    border: 1px solid #00adb5;
-    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid black;
+    border-radius: 5px;
     width: 100%;
+    &:hover {
+      color: darkred;
+      font-weight: bold;
+    }
   }
 `;
 export const Menu = styled.div`
@@ -76,10 +85,10 @@ export const Logo = styled(Link)`
   font-weight: 800;
   font-size: 2rem;
   i {
-    font-family: 'Indie Flower', cursive;
+    font-family: "Indie Flower", cursive;
   }
   span {
-    font-family: 'Indie Flower', cursive;
+    font-family: "Indie Flower", cursive;
     font-weight: 400;
     font-size: 2rem;
     color: white;
