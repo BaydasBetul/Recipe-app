@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Indie+Flower&family=Russo+One&display=swap");
+
+body {
+  /* background-color: #f9fcfc; */
+  background-image: url("./assets/table-gda2dcea1d_1920.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  font-family: "Indie Flower", cursive;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
