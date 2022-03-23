@@ -19,11 +19,6 @@ const About = () => {
       <InfoContainer>
         <h2>Hi, I'am BetyBds</h2>
         <h3>I’m currently learning Full-Stack Development Languages.</h3>
-        <h4>
-          {" "}
-          I've already known JS, ReactJS, NodeJS, MongoDB,SQL,
-          Python, AWS Services.
-        </h4>
         <h2>
           <a href="mailto:bbaydas85@gmail.com">Send email</a> :
           bbaydas85@gmail.com
